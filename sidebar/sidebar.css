@@ -1,0 +1,50 @@
+.sidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    flex: 1;
+}
+/* sidebar menu */
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 15%;
+    gap: 1%;
+}
+/* all the list items */
+.nav-item {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 2vw;
+    padding: 2% 4%;
+    gap: 1rem;
+    text-align:left;
+    border-radius: 15px;
+    color: #000;
+    transition: background-color 0.5s ease;
+}
+/* Link styling */
+.nav-item>a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    transition: color 0.1 ease;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: block; 
+    width: 100%;
+}
+/* Hover effect on side bar item */
+.nav-item:hover {
+    background-color: #e2eafb;
+    color:#6b90d4;
+}
+

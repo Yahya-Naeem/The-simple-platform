@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+#sb
+{
+    height: 90vh;
+    width: 10vw;
+    position: fixed;
+}
+
+.card > span{
+    color:darkgray;
+    font-size: 0.85rem;
+}
+
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:80%;
+    margin-left: 10vw;
+    padding: 1%;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card{
+    border-radius: 7px;
+    padding: 1%;
+    flex: 1;
+    box-shadow: 1px 1px 3px grey;
+    cursor: pointer;
+}
+
+.info-details{
+    display: flex;
+    flex-direction: column;
+    padding:1% 1%;
+    gap:2%;
+}
+
+.info-item{
+    display: flex;
+    align-items: center;
+    gap:1%;
+}
+
+.info-item:nth-child(1){
+    color: green;
+}
